@@ -10,7 +10,7 @@ public class Projectile1 : MonoBehaviour
        
             GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity);
             Destroy(effect, 6f);
-            Destroy(gameObject);
+            Destroy(gameObject); 
         
          
     }
